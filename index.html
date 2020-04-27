@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="center">
+                <form>
+                    <h2>Validação de formulário</h2>
+                    <p>-Usuário somente letras sem espaços e acentos</p>
+                    <p>-Senha pode ter até 5 letras, 6 simbolos e 2 hifens</p>
+                    <p>-Email somente gmail</p>
+                    <input type="text" placeholder="usuário" id="usuario">
+                    <p id="alertaUsuario"></p>
+                    <input type="text" placeholder="senha" id ="senha">
+                    <p id="alertaSenha"></p>
+                    <input type="email" placeholder="email" id="email">
+                    <p id="alertaEmail"></p>
+                    <input type="submit" value="enviar" id="submit">
+                </form>
+            </div>
+        </div>
+
+        <script src="validacao.js">
+
+        </script>
+    </body>
+</html>
